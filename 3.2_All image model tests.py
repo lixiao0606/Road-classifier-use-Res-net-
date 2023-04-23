@@ -1,6 +1,4 @@
-'''
-    单图测试
-'''
+
 import time
 
 import pandas as pd
