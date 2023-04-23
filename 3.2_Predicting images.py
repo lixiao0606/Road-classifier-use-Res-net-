@@ -34,9 +34,9 @@ if __name__=='__main__':
     batch_size = 1
 
     # # 给训练集和测试集分别创建一个数据集加载器
-    test_data = LoadData("all.txt", False)
+    # test_data = LoadData("all.txt", False)
     target_loc = "./dataset_group/val_group_5.txt"
-    # test_data = LoadData(target_loc, False)
+    test_data = LoadData(target_loc, False)
     test_dataloader = DataLoader(dataset=test_data, num_workers=4, pin_memory=True, batch_size=batch_size)
 
     # 如果显卡可用，则用显卡进行训练
