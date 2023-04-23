@@ -1,6 +1,4 @@
-'''
-    使用翻转进行数据增强
-'''
+
 import os
 import random
 import cv2
