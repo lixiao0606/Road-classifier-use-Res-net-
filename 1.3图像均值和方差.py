@@ -1,3 +1,5 @@
+#  Calculating Image Mean and Variance
+
 from torchvision.datasets import ImageFolder
 import torch
 from torchvision import transforms as T
